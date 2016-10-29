@@ -11,3 +11,17 @@ cd downloads
 https://repo.continuum.io/archive/
 wget link
 bash file.sh
+
+
+sudo apt install alien
+sudo alien -d package-name.rpm #to convert
+sudo alien -i package-name.rpm #convert and install
+sudo alien -k rpm-package-file.rpm #keep ##keep what
+
+rpm -Uvih *rpm #doesnt work
+
+sudo dpkg -i *.deb
+
+
+
+

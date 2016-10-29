@@ -6,12 +6,16 @@ Create swap area (logical... ) with the size of 2 times of the RAM
 Create ext4 (primary)
 Then install in ext, if itn't work. Add / to the ext4
 
+sudo apt-get purge libreoffice*
+
+
 pwd
 cd downloads
 https://repo.continuum.io/archive/
 wget link
 bash file.sh
 
+tar -xvzf "linux package name".tar.gz #to unzip
 
 sudo apt install alien
 sudo alien -d package-name.rpm #to convert
